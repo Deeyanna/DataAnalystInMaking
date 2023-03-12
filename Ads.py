@@ -20,7 +20,7 @@ def user_input_features():
 
 df = user_input_features()
 
-st.subheader('User Selection for Each Advertising Medium's Budget')
+st.subheader('User Selection for Each Advertising Medium Budget')
 st.write(df)
 
 loaded_model = pickle.load(open("AdvertisingSVM.h5", "rb"))
