@@ -28,4 +28,4 @@ loaded_model = pickle.load(open("AdvertisingSVM.h5", "rb"))
 prediction = loaded_model.predict(df)
 
 st.subheader('!!Sales Prediction!!')
-st.write('= ',prediction[0:.2f])
+st.write('= ',prediction[0])
